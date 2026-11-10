@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BarakaBox — Isrofni kamaytir, barakani ko’paytir!</title>
+<meta name="description" content="BarakaBox — O’zbekistondagi oziq-ovqat isrofiga qarshi marketplace.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 1. NAVBAR -->
+<header class="nav">
+  <div class="container nav-in">
+    <a href="#top" class="logo" id="top">
+      <svg viewBox="0 0 32 32" width="34" height="34" aria-hidden="true"><rect width="32" height="32" rx="10" fill="#14532D"/><path d="M8 12l8-4 8 4v9l-8 4-8-4z" fill="none" stroke="#22C55E" stroke-width="2" stroke-linejoin="round"/><path d="M8 12l8 4 8-4M16 16v9" fill="none" stroke="#22C55E" stroke-width="2" stroke-linejoin="round"/></svg>
+      <span>Baraka<b>Box</b></span>
+    </a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="burger" aria-label="Menyu"><span></span><span></span><span></span></label>
+    <nav class="links">
+      <a href="#top">Bosh sahifa</a>
+      <a href="#offers">Mahsulotlar</a>
+      <a href="#how">Biz qanday ishlaymiz?</a>
+      <a href="#partner">Hamkorlik</a>
+      <a href="#contact" class="btn btn-ghost">Kirish</a>
+      <a href="#offers" class="btn btn-green">Mahsulotlarni ko’rish</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- 2. HERO -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <span class="pill"><i></i> Toshkentda ishga tushirilmoqda</span>
+      <h1>Yaxshi taomlar <em>isrof</em> bo’lmasin!</h1>
+      <p>Sevimli restoranlaringizdan mazali mahsulotlarni 70% gacha chegirma bilan xarid qiling.</p>
+      <div class="cta-row">
+        <a href="#offers" class="btn btn-green btn-lg">Mahsulotlarni ko’rish
+          <svg viewBox="0 0 24 24" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#partner" class="btn btn-outline btn-lg">Biz bilan hamkorlik</a>
+      </div>
+      <p class="slogan">Isrofni kamaytir, barakani ko’paytir!</p>
+    </div>
+    <div class="hero-visual">
+      <div class="blob"></div>
+      <div class="hero-img"><img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1000&q=80" alt="Mazali yangi pitsa" width="1000" height="1100"></div>
+      <div class="float-card">
+        <span class="fc-badge">−52%</span>
+        <div><strong>Pizza Box</strong><small>Bugun olib ketish uchun</small></div>
+        <div class="fc-price"><s>65 000</s><b>35 000 so’m</b></div>
+      </div>
+      <div class="float-chip"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M5 13c0-5 4-9 14-9 0 10-4 14-9 14-3 0-5-2-5-5zM5 20c2-5 5-8 9-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> Isrofga qarshi</div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. STATS -->
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat"><b>70%</b><span>gacha chegirma</span></div>
+    <div class="stat"><b>3 ta</b><span>oddiy qadam</span></div>
+    <div class="stat dark"><b>100%</b><span>maqsad: isrofni kamaytirish</span></div>
+  </div>
+</section>
+
+<!-- 4. OFFERS -->
+<section class="section" id="offers">
+  <div class="container">
+    <div class="head">
+      <span class="eyebrow">Mashhur takliflar</span>
+      <h2>Bugungi eng yaxshi chegirmalar</h2>
+      <p>Namuna takliflar — loyiha prototipi uchun tayyorlangan.</p>
+    </div>
+    <div class="grid-cards">
+
+      <article class="card">
+        <div class="ph"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80" alt="Kruassanlar" loading="lazy"><span class="badge">−52%</span></div>
+        <div class="cb"><h3>Fresh Croissant Box</h3><p class="rest">Namuna Kafe Croissant</p>
+          <div class="price"><s>25 000 so’m</s><b>12 000 so’m</b></div>
+          <a href="#contact" class="btn btn-green btn-block">Band qilish</a></div>
+      </article>
+
+      <article class="card">
+        <div class="ph"><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" alt="Pitsa" loading="lazy"><span class="badge">−46%</span></div>
+        <div class="cb"><h3>Pizza Box</h3><p class="rest">Namuna Pizzeria</p>
+          <div class="price"><s>65 000 so’m</s><b>35 000 so’m</b></div>
+          <a href="#contact" class="btn btn-green btn-block">Band qilish</a></div>
+      </article>
+
+      <article class="card">
+        <div class="ph"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80" alt="Yangi non va pishiriq" loading="lazy"><span class="badge">−50%</span></div>
+        <div class="cb"><h3>Bakery Surprise Box</h3><p class="rest">Namuna Novvoyxona</p>
+          <div class="price"><s>40 000 so’m</s><b>20 000 so’m</b></div>
+          <a href="#contact" class="btn btn-green btn-block">Band qilish</a></div>
+      </article>
+
+      <article class="card">
+        <div class="ph"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80" alt="Shokoladli tort" loading="lazy"><span class="badge">−45%</span></div>
+        <div class="cb"><h3>Chocolate Cake</h3><p class="rest">Namuna Qandolat</p>
+          <div class="price"><s>55 000 so’m</s><b>30 000 so’m</b></div>
+          <a href="#contact" class="btn btn-green btn-block">Band qilish</a></div>
+      </article>
+
+      <article class="card">
+        <div class="ph"><img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80" alt="Sendvich" loading="lazy"><span class="badge">−49%</span></div>
+        <div class="cb"><h3>Sandwich Box</h3><p class="rest">Namuna Sandwich Bar</p>
+          <div class="price"><s>35 000 so’m</s><b>18 000 so’m</b></div>
+          <a href="#contact" class="btn btn-green btn-block">Band qilish</a></div>
+      </article>
+
+      <article class="card">
+        <div class="ph"><img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=800&q=80" alt="Pishiriqlar to’plami" loading="lazy"><span class="badge">−51%</span></div>
+        <div class="cb"><h3>Pastry Collection</h3><p class="rest">Namuna Qandolat</p>
+          <div class="price"><s>45 000 so’m</s><b>22 000 so’m</b></div>
+          <a href="#contact" class="btn btn-green btn-block">Band qilish</a></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- 5. HOW IT WORKS -->
+<section class="section how" id="how">
+  <div class="container">
+    <div class="head center">
+      <span class="eyebrow">Biz qanday ishlaymiz?</span>
+      <h2>To’rt oddiy qadam</h2>
+    </div>
+    <ol class="steps">
+      <li><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 10l1-5h14l1 5M4 10v9h16v-9M4 10c0 2 3 2 4 0 1 2 3 2 4 0 1 2 3 2 4 0 1 2 4 2 4 0M10 19v-5h4v5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></div><h3>Restoran mahsulot joylashtiradi</h3></li>
+      <li><div class="ico"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 16l4.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div><h3>Xaridor takliflarni ko’radi</h3></li>
+      <li><div class="ico"><svg viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10 17.5h4M10 9l1.7 1.7L15 7.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Mahsulotni band qiladi</h3></li>
+      <li><div class="ico"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6zM9 8V6a3 3 0 016 0v2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></div><h3>Restorandan olib ketadi</h3></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 6. WHY -->
+<section class="section" id="why">
+  <div class="container">
+    <div class="head">
+      <span class="eyebrow">Nega BarakaBox?</span>
+      <h2>Hamma uchun foydali yechim</h2>
+    </div>
+    <div class="why-grid">
+      <article class="why big">
+        <div class="ico light"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 10h18M16 15h2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+        <h3>Pulni tejash</h3><p>Sevimli taomlaringizni sezilarli arzonroq narxda oling.</p>
+      </article>
+      <article class="why">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M5 13c0-5 4-9 14-9 0 10-4 14-9 14-3 0-5-2-5-5zM5 20c2-5 5-8 9-10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+        <h3>Oziq-ovqat isrofini kamaytirish</h3><p>Sifatli taom axlatga emas, stolga yetib borsin.</p>
+      </article>
+      <article class="why">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 18l5-6 4 3 7-9M15 6h5v5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>Restoranlarga qo’shimcha daromad</h3><p>Sotilmay qolishi mumkin bo’lgan mahsulotdan foyda oling.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 7. PARTNERSHIP -->
+<section class="partner" id="partner">
+  <div class="container partner-in">
+    <div>
+      <span class="eyebrow light">Restoranlar uchun</span>
+      <h2>Restoraningiz bizning hamkorimiz bo’lsin</h2>
+      <p>Kun oxirida qolgan mahsulotlarni e’lon qiling, yangi mijozlarni jalb qiling va isrofni kamaytiring.</p>
+      <a href="#contact" class="btn btn-light btn-lg">Hamkor bo’lish</a>
+    </div>
+    <ul class="checks">
+      <li>Mahsulotlarni oson joylashtirish</li>
+      <li>Yangi mijozlar oqimi</li>
+      <li>Qo’shimcha daromad manbai</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 8. FINAL CTA -->
+<section class="final">
+  <div class="container final-in">
+    <h2>Har bir taomning qadri bor.</h2>
+    <p>Bugunoq isrofga qarshi kurashga qo’shiling.</p>
+    <a href="#offers" class="btn btn-green btn-lg">Mahsulotlarni ko’rish</a>
+  </div>
+</section>
+</main>
+
+<!-- 9. FOOTER -->
+<footer class="footer" id="contact">
+  <div class="container foot-grid">
+    <div>
+      <a href="#top" class="logo light"><svg viewBox="0 0 32 32" width="34" height="34" aria-hidden="true"><rect width="32" height="32" rx="10" fill="#22C55E"/><path d="M8 12l8-4 8 4v9l-8 4-8-4z" fill="none" stroke="#14532D" stroke-width="2" stroke-linejoin="round"/><path d="M8 12l8 4 8-4M16 16v9" fill="none" stroke="#14532D" stroke-width="2" stroke-linejoin="round"/></svg><span>Baraka<b>Box</b></span></a>
+      <p>Isrofni kamaytir, barakani ko’paytir!</p>
+      <div class="soc">
+        <a href="#top" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17" cy="7" r="1" fill="currentColor"/></svg></a>
+        <a href="#top" aria-label="Telegram"><svg viewBox="0 0 24 24"><path d="M21 4L3 11l6 2 2 6 3-4 5 4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></a>
+        <a href="#top" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 00-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></a>
+        <a href="#top" aria-label="YouTube"><svg viewBox="0 0 24 24"><rect x="2.5" y="5.5" width="19" height="13" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/></svg></a>
+      </div>
+    </div>
+    <div><h4>Sahifalar</h4><a href="#offers">Mahsulotlar</a><a href="#how">Qanday ishlaydi</a><a href="#why">Nega BarakaBox</a><a href="#partner">Hamkorlik</a></div>
+    <div><h4>Aloqa</h4><span>Toshkent shahri (namuna manzil)</span><span>+998 00 000 00 00</span><span>hello@barakabox.example</span></div>
+  </div>
+  <div class="container copy">© 2026 BarakaBox. Universitet startap loyihasi — prototip. Barcha restoran va takliflar namunadir.</div>
+</footer>
+
+</body>
+</html>
